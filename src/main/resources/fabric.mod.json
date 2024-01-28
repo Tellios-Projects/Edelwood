@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "edelwood",
   "version": "${version}",
 
-  "name": "Template",
-  "description": "ADDME",
+  "name": "Edelwood Mod",
+  "description": "Adds strange new growths to the Dark Forests.",
   "authors": [
-    "Leah (@leafenzio), Tellio (@tellioaridoitsu)"
+    "Leah and Eliza (@aridoitsu on Tumblr)"
   ],
   "contact": {
-    "homepage": "ADDME - website link",
-    "sources": "ADDME - github link"
+    "homepage": "https://modrinth.com/project/edelwood",
+    "sources": "https://github.com/Tellios-Projects/Edelwood"
   },
 
   "license": "MIT",
@@ -19,17 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.leafenzo.template.ModInit"
+      "net.leafenzo.edelwood.ModInit"
     ],
     "client": [
-      "net.leafenzo.template.ModClientInit"
+      "net.leafenzo.edelwood.ModClientInit"
     ],
     "fabric-datagen": [
-      "net.leafenzo.template.datageneration.ModDataGenerator"
+      "net.leafenzo.edelwood.datageneration.ModDataGenerator"
     ]
   },
   "mixins": [
-    "squashed.mixins.json"
+    "edelwood.mixins.json"
   ],
 
   "depends": {

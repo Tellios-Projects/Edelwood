@@ -6,7 +6,7 @@
 <a href="https://fabricmc.net/"><img src="https://cdn.discordapp.com/attachments/705864145169416313/969720133998239794/fabric_supported.png"alt="Supported on Fabric"width="200"</a> 
 
 <h4 align="center"> 
-A mod for Minecraft JE that adds a new "woodlike growth" <br>
+A mod for Minecraft JE that adds a new "wood-like growth". <br>
 Currently in development
 <br><br>
 <br> ₊ㆍ┈ㆍ┈ㆍ✿ㆍ┈ㆍ┈ㆍ┈ ✿ㆍ┈ㆍ┈ㆍ┈ ✿ㆍ┈ㆍ┈ㆍ₊ <br>
