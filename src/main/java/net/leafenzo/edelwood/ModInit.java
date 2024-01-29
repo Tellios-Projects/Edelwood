@@ -6,6 +6,7 @@ import net.leafenzo.edelwood.item.ModItemGroups;
 import net.leafenzo.edelwood.item.ModItems;
 import net.leafenzo.edelwood.particle.ModParticleTypes;
 import net.leafenzo.edelwood.registries.ModFabricRegistries;
+import net.leafenzo.edelwood.sound.ModSoundEvents;
 import net.leafenzo.edelwood.util.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +34,7 @@ public class ModInit implements ModInitializer {
 //        ModEffects.registerModEffects();
 //        ModPotions.registerModPotions();
         ModWorldGen.registerWorldGen();
+        ModSoundEvents.registerModSoundEvents();
         ModItemGroups.registerModItemGroups();
     }
 }

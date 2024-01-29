@@ -7,11 +7,15 @@
 package net.leafenzo.edelwood.util;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.entry.RegistryEntryList;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.world.World;
 
 import java.util.*;
 
@@ -227,5 +231,12 @@ public class ModUtil {
         return a;
     }
 
-
+//    public static boolean anyAdjacentToBlock(World world, BlockPos pos, Block block) {
+//        for(Direction d : Direction.values()) {
+//           if(world.getBlockState(pos.offset(d,1)).isOf(block)) {
+//               return true;
+//           }
+//        }
+//        return false;
+//    }
 }
